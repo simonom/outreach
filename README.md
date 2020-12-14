@@ -1,4 +1,15 @@
-# outreach
+Welcome to my repository for education and outreach code.  Below are details about code for tephigram plotting and cglobal warming experiments
+
+# Tephigram Plotting
+The tephi_plt code allows users to plot the following isopleths as presented in tephigrams: temperature, potential temperature, wet bulb potential temperature, pressure and water mixing ratio.  To ensure dependecies are installed, the pip setup is recommended:
+
+i) at the command line create a virtual environment in a suitable location (the environment will also contain the tephigram plotting package) using at least python 3: python3 -m venv tephi_env
+
+ii) activate this virtual environment: source tephi_env/bin/activate
+
+iii) ensure pip up to date in this environment: pip install --upgrade pip
+
+# Global Warming Experiment
 files for outreach activities
 
 Raspberry Pi stuff:
@@ -27,9 +38,6 @@ Click the shutdown button (red power button) in the menu bar at the bottom right
 Once it says "system halted" you can remove the power cord if needed.
 
 light sensor: https://www.raspberrypi-spy.co.uk/2015/03/bh1750fvi-i2c-digital-light-intensity-sensor/
-
-request network socket access: https://supportcentre.manchester.ac.uk/ServiceDesk.WebAccess/ss/object/createInCart.rails?class_name=RequestManagement.Request&lifecycle_name=NewProcess112&object_template_name=NewTemplate11&attributes=_ConfigItemRequested-cc33480d-888d-4dd5-ac17-628006c3932c%2CRaiseUser-55569528-9f70-4c15-99c4-64c92d9a504e
-
 
 setting up a new pi with thermometer.py
 
